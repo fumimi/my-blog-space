@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/posts/object-array/</loc>
+    <lastmod>2017-10-15T17:34:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/posts/npm/</loc>
+    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/posts/my-first-post/</loc>
+    <lastmod>2017-10-15T15:44:10+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/tags/hugo/</loc>
+    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/categories/hugo/</loc>
+    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/tags/markdown/</loc>
+    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/</loc>
+    <lastmod>2017-10-15T17:34:13+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/posts/</loc>
+    <lastmod>2017-10-15T17:34:13+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/gh-pages-sample/tags/</loc>
+    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

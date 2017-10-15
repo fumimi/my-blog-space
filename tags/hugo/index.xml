@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on My Blog Space.</title>
+    <link>https://fumimi.github.io/gh-pages-sample/tags/hugo/</link>
+    <description>Recent content in Hugo on My Blog Space.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Oct 2017 16:23:11 +0900</lastBuildDate>
+    
+	<atom:link href="https://fumimi.github.io/gh-pages-sample/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>npmの使い方について</title>
+      <link>https://fumimi.github.io/gh-pages-sample/posts/npm/</link>
+      <pubDate>Sun, 15 Oct 2017 16:23:11 +0900</pubDate>
+      
+      <guid>https://fumimi.github.io/gh-pages-sample/posts/npm/</guid>
+      <description>ドラフトを解除して公開用にpublicフォルダを生成
+プレビューがOKだったらドラフトを解除してpublicフォルダを生成します。
+$ hugo undraft content/posts/npm.md $ hugo &amp;ndash;theme=hugo_theme_robust
+tocは目次のことですよ。
+hugoでビルド。
+categoryとtagについて
+https://qiita.com/spiegel-im-spiegel/items/4c5859f7cac877068742
+表示、非表示についても確認する。
+gh-pages-sample</description>
+    </item>
+    
+    <item>
+      <title>hugo（Markdown記法のチートシート）</title>
+      <link>https://fumimi.github.io/gh-pages-sample/posts/my-first-post/</link>
+      <pubDate>Sun, 15 Oct 2017 15:44:10 +0900</pubDate>
+      
+      <guid>https://fumimi.github.io/gh-pages-sample/posts/my-first-post/</guid>
+      <description>hugo（Markdown記法のチートシート） Kobitoで利用可能なMarkdown記法のチートシートです。
+Markdown記法の原文については、Daring Fireball: Markdown Syntax Documentationをご覧下さい。 また、コードに関する記法はGitHub Flavored Markdownに準拠しています。
+Code - コードの挿入 たとえば、Rubyで記述したコードをファイル名「kobito.rb」として記録したいときは、バッククオートを使用して以下のように投稿するとシンタックスハイライトが適用されます。 コードブロック上下に空行を挿入しないと正しく表示されないことがあります。
+ (空行) ```ruby:kobito.rb puts &amp;lsquo;The best app to log and share programming knowledge.&amp;rsquo; ``` (空行)
+ 結果
+puts &#39;The best app to log and share programming knowledge.&#39;  また、コードをインライン表示することも可能です。
+ ` puts &amp;lsquo;Kobito&amp;rsquo;` はプログラマのための知識記録アプリです。
+ 結果
+puts &#39;Kobito&#39; はプログラマのための知識記録アプリです。
+シンタックスハイライト可能な言語 Kobitoで現在シンタックスハイライト可能な言語/ファイル形式は以下です。 基本的には上記のフォーマットに従って言語名/ファイル形式を小文字で書くと適用されますが、例外的なものについては下記の括弧で括った中の表記を利用してください。
+ 例: C++のハイライト ```cpp print(&amp;ldquo;hello\n&amp;rdquo;); ```
+ Bash, C#(cs), C++(cpp), CSS, Diff, HTML, XML, Ini, Java, Javascript, PHP, Perl, Python, Ruby, SQL, 1C, AVR Assembler(avrasm), Apache, Axapta, CMake, DOS .</description>
+    </item>
+    
+  </channel>
+</rss>
