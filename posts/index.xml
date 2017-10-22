@@ -6,10 +6,23 @@
     <description>Recent content in Posts on My Blog Space.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Oct 2017 17:34:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Oct 2017 08:30:59 +0900</lastBuildDate>
     
 	<atom:link href="https://fumimi.github.io/my-blog-space/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Swiftを学ぶ</title>
+      <link>https://fumimi.github.io/my-blog-space/posts/swift-basic/</link>
+      <pubDate>Sun, 22 Oct 2017 08:30:59 +0900</pubDate>
+      
+      <guid>https://fumimi.github.io/my-blog-space/posts/swift-basic/</guid>
+      <description>Swiftを学ぶ 「Hello, world!」と表示させる print(&amp;hellip;)は引数の内容をコンソールへ出力する関数です。
+print(&amp;quot;Hello, world!&amp;quot;)  変数と定数 var は変数、 let は定数です。
+var level = 10 level = 20 print(level) // 20  Swiftの変数は型を持っています。型（String、Int等）は変数を宣言する時に指定します。
+var name: String var level: Int name = &amp;quot;クリリン&amp;quot; level = 10 print(name) print(level)  但しSwiftには、型を自動的に推測する機能が備わっています。上でみたように型が明らかな場合は型宣言を省略することができます。
+var name = &amp;quot;クリリン&amp;quot; // 代入されている内容から型がString（文字列）なのは明らかなので、型は明示しなくてよい。 var level = 10 // この場合は型はInt（整数型）と判断されます。 var height1 = 153.0 // この場合は型はDouble（浮動小数型）と判断されます。（少数部がついた数値はデフォルトでDouble型になります。） var height2: Float = 153.0 // 型を明示する場合は、型付きで宣言する。 var height3: Double = 150  文字列補完を使って次の様に変数の値を文字列に含めて出力できます。</description>
+    </item>
     
     <item>
       <title>Arrayオブジェクト（配列を操作する）</title>
@@ -44,18 +57,16 @@ gh-pages-sample</description>
       <pubDate>Sun, 15 Oct 2017 15:44:10 +0900</pubDate>
       
       <guid>https://fumimi.github.io/my-blog-space/posts/my-first-post/</guid>
-      <description>hugo（Markdown記法のチートシート） Kobitoで利用可能なMarkdown記法のチートシートです。
+      <description>hugo 記事を追加する方法 記事のテンプレートを作成する方法 通常は hugo new で記事を新規作成します。
+$ hugo new [path]  例
+$ hugo new post/hello.md  で作成する。 あとは hugo でビルドできる。
+hugo（Markdown記法のチートシート） Kobitoで利用可能なMarkdown記法のチートシートです。
 Markdown記法の原文については、Daring Fireball: Markdown Syntax Documentationをご覧下さい。 また、コードに関する記法はGitHub Flavored Markdownに準拠しています。
 Code - コードの挿入 たとえば、Rubyで記述したコードをファイル名「kobito.rb」として記録したいときは、バッククオートを使用して以下のように投稿するとシンタックスハイライトが適用されます。 コードブロック上下に空行を挿入しないと正しく表示されないことがあります。
  (空行) ```ruby:kobito.rb puts &amp;lsquo;The best app to log and share programming knowledge.&amp;rsquo; ``` (空行)
  結果
 puts &#39;The best app to log and share programming knowledge.&#39;  また、コードをインライン表示することも可能です。
- ` puts &amp;lsquo;Kobito&amp;rsquo;` はプログラマのための知識記録アプリです。
- 結果
-puts &#39;Kobito&#39; はプログラマのための知識記録アプリです。
-シンタックスハイライト可能な言語 Kobitoで現在シンタックスハイライト可能な言語/ファイル形式は以下です。 基本的には上記のフォーマットに従って言語名/ファイル形式を小文字で書くと適用されますが、例外的なものについては下記の括弧で括った中の表記を利用してください。
- 例: C++のハイライト ```cpp print(&amp;ldquo;hello\n&amp;rdquo;); ```
- Bash, C#(cs), C++(cpp), CSS, Diff, HTML, XML, Ini, Java, Javascript, PHP, Perl, Python, Ruby, SQL, 1C, AVR Assembler(avrasm), Apache, Axapta, CMake, DOS .</description>
+ ` puts &amp;lsquo;Kobito&amp;rsquo;` はプログラマのための知識記録アプリです。</description>
     </item>
     
   </channel>

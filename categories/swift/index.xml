@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swift on My Blog Space.</title>
+    <link>https://fumimi.github.io/my-blog-space/categories/swift/</link>
+    <description>Recent content in Swift on My Blog Space.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Oct 2017 08:30:59 +0900</lastBuildDate>
+    
+	<atom:link href="https://fumimi.github.io/my-blog-space/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swiftを学ぶ</title>
+      <link>https://fumimi.github.io/my-blog-space/posts/swift-basic/</link>
+      <pubDate>Sun, 22 Oct 2017 08:30:59 +0900</pubDate>
+      
+      <guid>https://fumimi.github.io/my-blog-space/posts/swift-basic/</guid>
+      <description>Swiftを学ぶ 「Hello, world!」と表示させる print(&amp;hellip;)は引数の内容をコンソールへ出力する関数です。
+print(&amp;quot;Hello, world!&amp;quot;)  変数と定数 var は変数、 let は定数です。
+var level = 10 level = 20 print(level) // 20  Swiftの変数は型を持っています。型（String、Int等）は変数を宣言する時に指定します。
+var name: String var level: Int name = &amp;quot;クリリン&amp;quot; level = 10 print(name) print(level)  但しSwiftには、型を自動的に推測する機能が備わっています。上でみたように型が明らかな場合は型宣言を省略することができます。
+var name = &amp;quot;クリリン&amp;quot; // 代入されている内容から型がString（文字列）なのは明らかなので、型は明示しなくてよい。 var level = 10 // この場合は型はInt（整数型）と判断されます。 var height1 = 153.0 // この場合は型はDouble（浮動小数型）と判断されます。（少数部がついた数値はデフォルトでDouble型になります。） var height2: Float = 153.0 // 型を明示する場合は、型付きで宣言する。 var height3: Double = 150  文字列補完を使って次の様に変数の値を文字列に含めて出力できます。</description>
+    </item>
+    
+  </channel>
+</rss>
