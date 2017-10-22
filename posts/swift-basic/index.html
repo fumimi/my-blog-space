@@ -1191,16 +1191,17 @@ for var index = 0; index &lt; party.count; ++index {
 <p>ループの中でcontinueを使うと途中で次のループ処理へ移ることができます。また同様にbreakを使うと処理を中断してループを抜けることができます。</p>
 
 <pre><code>let party = [&quot;勇者&quot;, &quot;戦士&quot;, &quot;魔法使い&quot;, &quot;僧侶&quot;]
-for var index = 0; index &lt; party.count; ++index {
-    if index &lt; 1 { continue }
-    if index &gt; 2 { break }
-    print(party[index])
+for i in 0 ..&lt; party.count {
+    print(party[i])
 }
-/*
+</code></pre>
+
+<blockquote>
+<p>勇者
 戦士
 魔法使い
-*/
-</code></pre>
+僧侶</p>
+</blockquote>
 
 <p>上のindexは、forループの中でのみ参照可能です。forループの外で参照するには、次のようにループの外側で変数を宣言する必要があります。</p>
 
