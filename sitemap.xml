@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fumimi.github.io/my-blog-space/hugo/new_article_creation/</loc>
+    <lastmod>2017-11-04T16:33:23+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fumimi.github.io/my-blog-space/posts/swift-basic/</loc>
     <lastmod>2017-10-22T08:30:59+09:00</lastmod>
   </url>
@@ -29,13 +34,19 @@
   
   <url>
     <loc>https://fumimi.github.io/my-blog-space/tags/hugo/</loc>
-    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <lastmod>2017-11-04T16:33:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fumimi.github.io/my-blog-space/categories/hugo/</loc>
-    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <lastmod>2017-11-04T16:33:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fumimi.github.io/my-blog-space/hugo/</loc>
+    <lastmod>2017-11-04T16:33:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +76,7 @@
   
   <url>
     <loc>https://fumimi.github.io/my-blog-space/</loc>
-    <lastmod>2017-10-22T08:30:59+09:00</lastmod>
+    <lastmod>2017-11-04T16:33:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,7 +100,7 @@
   
   <url>
     <loc>https://fumimi.github.io/my-blog-space/tags/</loc>
-    <lastmod>2017-10-15T16:23:11+09:00</lastmod>
+    <lastmod>2017-11-04T16:33:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   

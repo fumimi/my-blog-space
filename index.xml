@@ -6,10 +6,19 @@
     <description>Recent content on My Blog Space.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Oct 2017 08:30:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Nov 2017 16:33:23 +0900</lastBuildDate>
     
 	<atom:link href="https://fumimi.github.io/my-blog-space/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New_article_creation</title>
+      <link>https://fumimi.github.io/my-blog-space/hugo/new_article_creation/</link>
+      <pubDate>Sat, 04 Nov 2017 16:33:23 +0900</pubDate>
+      
+      <guid>https://fumimi.github.io/my-blog-space/hugo/new_article_creation/</guid>
+      <description> 記事の新規追加 $ hugo new hugo/new_article_creation.md  ビルド $ hugo  サーバを立ち上げる $ hugo server  </description>
+    </item>
     
     <item>
       <title>Swiftを学ぶ</title>
